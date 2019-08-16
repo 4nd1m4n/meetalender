@@ -1,0 +1,17 @@
+.page-header
+  h2 Find new Meetup Groups
+
+ruby:
+  group_params = '{
+    "country": "DE",
+    "state": "Sachsen",
+    "city": "Dresden",
+    "category_id": 34,
+    "page": 200
+  }'
+
+= form_tag({url: meetups_path}, {:method => :get}) do
+  = text_area_tag(:parameters, group_params, cols: 80, rows: 21)
+  = hidden_field_tag(:switch, "search_result")
+  = submit_tag "Search for Meetup Groups", class: "btn btn-primary"
+  = link_to 'Cancel', meetups_path, class: "btn btn-link"
