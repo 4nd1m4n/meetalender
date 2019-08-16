@@ -1,6 +1,8 @@
 # Meetalender
 Comfortable Mexican Sofa Add-On/Plugin that offers Meetup to Google Calendar Event transcription.
 
+CURRENTLY THIS PLUGIN IS STILL UNDER DEVELOPMENT AND THE STEPS BELOW ARE NOT SUFFICING.
+
 ## Usage
 How to use my plugin.
 
